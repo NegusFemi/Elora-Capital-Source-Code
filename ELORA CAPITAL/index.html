@@ -1,0 +1,280 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELORA CAPITAL MANAGEMENT LIMITED</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="STYLES/style.css">
+</head>
+<template>
+    <div>
+        <div class="read-more">
+            <div class="text">
+                <div class="circle">
+                    <svg id="curve" fill="transparent" d="M0, 100a100, 100
+                    01, 100 01, 0 200, 0a100, 100 01, 0 -200, 0"></svg>
+                    <test class="fill">
+                        <textpath xlink:href="#curve">
+                            ELORA CAPITAL MANAGEMENT LIMITED 
+                            ELORA CAPITAL MANAGEMENT LIMITED 
+                            ELORA CAPITAL MANAGEMENT LIMITED 
+                        </textpath>
+                    </test>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+
+<body id="body">
+<div id="overlay-body"></div>
+
+<!--HEADER SECTION-->
+<section id="header">
+        <div class="nav-container">
+            <!--div class="logo">
+                <a href="#home">ELORA CAPITAL</a>
+            </!--div-->
+            <nav class="navbar">
+                <span class="open-slide">
+                    <a href="#/" onclick="openSlideMenu()"><svg xmlns="http://www.w3.org/2000/svg" width="39" height="25" fill="currentColor" id="menuBtn" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg><!--img src="./IMAGES/hamburgerpng.png" alt="hamburger icon" id="menuBtn"--></a>
+                </span>
+                <ul class="navbar-nav mr-auto">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#details">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#client-section">PARTNERS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div id="side-menu" class="side-nav">
+                <a href="#/" class="btn-close" onclick="closeSideMenu()"></a>
+                <a href="#home" onclick="closeSideMenu()">HOME</a>
+                <a href="#details" onclick="closeSideMenu()">ABOUT</a>
+                <a href="#services" onclick="closeSideMenu()">SERVICES</a>
+                <a href="#client-section" onclick="closeSideMenu()">PARTNERS</a>
+                <a href="#contact" onclick="closeSideMenu()">CONTACT</a>
+                <div class="side-footer">
+                    <p>&copy2021</p>
+                    <p class = "elora">ELORA CAPITAL LIMITED</p>
+                    <p>ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+        </div>
+</section>
+<!--END OF HEADER SECTION-->
+
+<!-- TRENDY ROTATE CIRCLE TEXT ON SCROLL USING VUE JS -->
+    
+
+
+<!--LANDING PAGE SECTION -->
+<section id="landing">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm col-lg m-0 p-0">
+                <div class="landing-content px-3 pe-5"><h1>ELORA <span style="color: rgb(141, 116, 123);">CAPITAL</span> 
+                    LIMITED, <br>
+                    <span style="color: rgb(138, 160, 163);" id="worded" class="txt-type" data-wait="3000" data-words='["asset management", "risk analysis", "risk management", 
+                    "investment banking", "portfolio management"]'></span>
+                    <br> <span style="color: rgb(250, 200, 200);">professionals.</span></div>
+                <div id="carouselExampleInterval" class="carousel carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>                    
+                    <div class="carousel-inner v-overlay">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <video autoplay loop muted plays-line class="d-block w-100">
+                                <source src="./IMAGES/sales-pitch-presentation.mp4">
+                            </video>
+                            <!--img src="..." class="d-block w-100" alt="..."-->
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <video autoplay loop muted plays-line class="d-block w-100">
+                                <source src="./IMAGES/web-conference-meeting.mp4">
+                            </video>
+                            <!--img src="..." class="d-block w-100" alt="..."-->
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <video autoplay loop muted plays-line class="d-block w-100">
+                                <source src="./IMAGES/meeting-with-clients.mp4">
+                            </video>
+                            <!--img src="..." class="d-block w-100" alt="..."-->
+                        </div>
+                    </div>
+                    <div class="btn-1"><a href="#details"><span></span>LEARN MORE</a></div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- ABOUT DETAILS SECTION -->
+<section id="about-detail">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm col-lg">
+                <div class="about-explain p-4 m-2 text-center">
+                    <h1 class="p-4"></i>“Financial freedom can only be achieved by <span style="color: rgba(138, 160, 163, 1);"> a conscious choice.<br> 
+                        It's not an accident.</span><br> It's not just merely by thinking, 
+                        it's through grinding <br> and doing what is necessary to get to 
+                        that goal.”<br>
+                        ― <span style="color: rgba(138, 160, 163, 1);">David Angway</span>
+                    </h1>
+                    <p class="lead text-center p-4 mt-4">
+                        ELORA CAPITAL LIMITED is a Pan-African Financial Services 
+                        Company incorporated in Nigeria; duly regulated and registered 
+                        by the Securities & Exchange Commission. Our wholly-owned subsidiaries 
+                        Vetiva Securities Limited (a dealing member of the Nigerian Stock Exchange);
+                        Vetiva Fund Managers Limited and Vetiva Trustees Limited act as Broker/Dealers,
+                         Fund/Portfolio Managers and Corporate Trustees respectively.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ABOUT SUMMARY SECTION -->
+<section id="about">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="about-content text-center pt-0 mt-0">
+                    <h1 class="m-4">Supporting<br> <span style="color: rgba(138, 160, 163, 1);">businesses</span><br> like yours,</h1>
+                    <p class="lead mx-4 p-3">by empowering companies,<br>
+                        with thoughtful advice<br>
+                        and hassle-free accounting.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 p-0 m-0">
+                <div class="about-image img-fluid">
+                    <img src="./IMAGES/business-executive.jpg" alt="corporate executive">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERTISE SECTION -->
+<section id="expertise-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm col-lg-12 mt-4 text-center">
+                <h1>OUR EXPERTISE</h1><hr class="mt-0 text-center">
+                <p class="lead mt-3">We provide a range of personalized services structured around meeting the very unique business 
+                    needs of business owners and investors. Professional assiduity is paid to the
+                    specificity of clients' Financial needs, risk levels sequencing and action requirements.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm col-lg-12">
+                <div class="container-expertise justify-content-center ms-1 me-1">
+                    <div class="col-expertise">
+                        <h2>PORTFOLIO MANAGEMENT</h2>
+                        <div class="caption">
+                            <p>WE HELP OUR CLIENTS MINIMIZE OPERATIONAL COST, MAXIMIZE 
+                                INFRASTRUCTURE AND EQUIPMENT EFFICIENCY, IMPROVE ASSET INTEGRITY 
+                                AND ATTAIN RECOMMENDED SAFETY STANDARDS. <br>
+                            <button onclick="window.location.href='engineering.html';" class="btn-2" type="button">KNOW MORE</button>
+                            </p>
+                        </div>
+                        <img src="./IMAGES/consulting-with-clients.jpg" alt="consulting with clients">
+                    </div>
+                    <div class="col-expertise">
+                        <h2>RISK MANAGEMENT</h2>
+                        <div class="caption">
+                            <p>OUR ELITE TEAM OF PROJECT MANAGERS HELP OUR CLIENTS WITH 
+                        PROJECT GOVERNANCE; ENSURING COMPLETION OF PROJECT TASKS ON 
+                        TIME, WITHIN BUDGET AND SCOPE, AT THE CORRECT PERFORMANCE LEVEL. <br>
+                        <button onclick="window.location.href='project.html';" class="btn-2" type="button">KNOW MORE</button>
+                            </p>
+                        </div>
+                        <img src="./IMAGES/delegation-with-clients.jpg" alt="delegation with clients"/>
+                    </div>
+                    <div class="col-expertise">
+                        <h2>ASSET MANAGEMENT</h2>
+                        <div class="caption">
+                            <p>OUR CLIENTS GET CONSULTING SERVICES THAT HELP THEM NAVIGATE THROUGH 
+                        BUSINESS ISSUES, FIND OPPRTUNITIES AND A RE-DEDICATION TO THEIR CORE 
+                        BUSINESS OBJECTIVES AND GOALS. <br>
+                        <button onclick="window.location.href='consulting.html';" class="btn-2" type="button">KNOW MORE</button>
+                            </p>    
+                        </div>
+                        <img src="./IMAGES/asset-management.jpg" alt="asset management"/>
+                    </div>
+                    <div class="col-expertise">
+                        <h2>TRUST SERVICES</h2>
+                        <div class="caption">
+                            <p>WE HELP OUR CLIENTS CARRYOUT A COMPREHENSIVE WORK PROCESSES STREAMLINING TO IDENTIFY AND ISOLATE INEFFICIENCIES, THEN OPTIMIZE 
+                                THE PROCESSES THROUGH CASE-TAILORED IMPROVEMENT TECHNIQUES. <br>
+                                <button onclick="window.location.href='process.html';" class="btn-2" type="button">KNOW MORE</button>
+                            </p>
+                        </div>
+                        <img src="./IMAGES/business-handshake.jpg" alt="business associates">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+    
+
+<!--JAVASCRIPT SECTION-->
+<script type="text/javascript" src="myScript.js"></script>
+
+<!--KURSOR.JS CDN & SCRIPT-->
+<script src="https://cdn.jsdelivr.net/npm/kursor@0.1.6/dist/kursor.min.js"></script>
+    
+<script src="https://unpkg.com/kursor"></script>
+    <script>
+        new kursor({
+            type: 4,
+            removeDefaultCursor: true,
+            color: "#F7F3F0",
+        })
+    </script>
+
+
+<!--ANIMATE ON SCROLL CDN & SCRIPT-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+ AOS.init();
+ window.addEventListener('load', function() { 
+   AOS.refresh(); 
+});
+</script>
+
+<!-- VUE JS CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+
+<!--ROTATE TEXT ON SCROLL USING VUE JS-->
+
+
+<!--BOOTSTRAP CDN & SCRIPT-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>
